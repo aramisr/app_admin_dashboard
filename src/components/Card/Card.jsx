@@ -9,7 +9,7 @@ import Chart from "react-apexcharts";
 const Card = (props) => {
 
   const [expanded, setExpanded] = useState(false);
-  console.log("Console value: "+expanded);
+  console.log("Console value: " + expanded);
   return (
     <LayoutGroup>
       {
@@ -117,7 +117,7 @@ function ExpandedCard({ param, setExpanded }) {
       <div style={{ alignSelf: "flex-end", cursor: "pointer", color: "white" }}>
         <UilTimes onClick={setExpanded} />
       </div>
-        <span>{param.title}</span>
+      <span>{param.title}</span>
       <div className="chartContainer">
         <Chart options={data.options} series={param.series} type="area" />
       </div>
