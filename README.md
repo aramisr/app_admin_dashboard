@@ -5,3 +5,4 @@
 
 # Descripción de su proyecto
 El proyecto (app_admin_dashboard) es la primera versión de un Dashboard Responsive desarrollado con React para propositos educativos y para que cualquier desarrollador interesado lo descargue y pueda tomar este frontend como referencia para sus futuros desarrollos.
+
